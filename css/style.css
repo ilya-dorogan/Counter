@@ -1,0 +1,66 @@
+@import url(reset.css);
+@import url(https://fonts.googleapis.com/css?family=Montserrat:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic);
+
+body {
+	font-family: Montserrat;
+}
+
+.conteiner {
+	height: 100vh;
+	overflow: hidden;
+	background-color: #D3F6DB;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.counter {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+
+.counter h1 {
+	font-size: 7rem;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+
+.counter span {
+	font-size: 10rem;
+	font-weight: 700;
+}
+
+.btn-container {
+	padding-top: 50px;
+	display: flex;
+	gap: 30px;
+}
+
+.btn {
+	text-transform: uppercase !important;
+	font-weight: 500 !important;
+	border-radius: 10px !important;
+	padding: 10px 25px !important;
+	font-size: 2rem !important;
+	border: none !important;
+	color: #000 !important;
+	transition: 0.3s all ease !important;
+
+}
+
+.btn:hover {
+	opacity: 0.8 !important;
+	filter: hue-rotate(180deg) !important;
+	transition: 0.3s all ease !important;
+	border: none !important;
+}
+
+.btn-success {
+	background-color: #A1EF8B !important;
+}
+
+.btn-danger {
+	background-color: #92D5E6 !important;
+}
